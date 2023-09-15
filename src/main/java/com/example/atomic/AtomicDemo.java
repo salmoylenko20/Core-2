@@ -9,12 +9,14 @@ public class AtomicDemo {
 
     public static void main(String[] args) {
         System.out.println(twoSum("fgfg + hgh"));
+        System.out.println("Heloo");
     }
     public static String twoSum(String str) {
 
         String[] words = str.split("\\+");
 
         return words[1];
+
     }
 
 }
